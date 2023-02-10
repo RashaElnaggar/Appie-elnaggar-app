@@ -1,0 +1,675 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <!-- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link href="https://fonts.googleapis.com/css2?family=Inter&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0"
+    /> -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter&family=Roboto:ital,wght@0,100;0,500;1,400&family=Rubik:wght@500;700&display=swap" rel="stylesheet">
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+      integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/general.css" />
+    <link rel="stylesheet" href="css/queries.css" />
+    <link
+    rel="icon"
+    type="image/png"
+    sizes="32x32"
+    href="images/favicon-32x32.png"
+  />
+    <title>Appie App</title>
+  </head>
+  <body>
+    <header class="container main-header">
+      <a href="#"><img class="logo" src="img/logo.png" alt="logo" /> </a>
+
+      <nav class="main-nav">
+        <ul class="navigation-list-nav">
+          <a href="#home" class="navigation-list-link">Home</a>
+          <a href="#services" class="navigation-list-link">Services</a>
+          <a href="#pages" class="navigation-list-link">Pages</a>
+          <a href="#news" class="navigation-list-link">News</a>
+          <a href="#contacts" class="navigation-list-link">Contact</a>
+        </ul>
+      </nav>
+      <button class="btn-mobile-nav">
+        <ion-icon class="icon-mobile-nav" name="menu-outline"></ion-icon>
+        <ion-icon class="icon-mobile-nav" name="close-outline"></ion-icon>
+      </button>
+      <div>
+        <a href="#" class="navigation-list-link navigation-last">Get started</a>
+      </div>
+    </header>
+    <main>
+      <section class=" container hero-section">
+        <div class="container hero">
+          <div class="hero-text-box">
+            <h1 class="heading-primary">
+              Ready to launch your app in one <strong>Application</strong>
+            </h1>
+            <p class="hero-discription">
+              Find the best application in the appie
+            </p>
+
+            <a href="#" class="box btn btn--outline">
+              <div class="hero-btn-box">
+                <div class="btn-text">
+                  <ion-icon name="mail-outline"></ion-icon>
+                  info@appie.com
+                </div>
+                <div class="btn-text"><p class="arrow">&rarr;</p></div>
+              </div>
+            </a>
+
+            <div class="customers-container">
+              <div class="customer-images">
+                <img src="img/people/customer-1.jpg" alt="customer 1" />
+                <img src="img/people/customer-2.jpg" alt="customer 2" />
+                <img src="img/people/customer-4.jpg" alt="customer 3" />
+                <img src="img/people/customer-5.jpg" alt="customer 4" />
+              </div>
+              <p class="customer-text"><span>30k+</span> Feedback</p>
+            </div>
+          </div>
+
+          <div class="hero-img-prim">
+            <img src="img/hero.png" class="hero-img" />
+          </div>
+        </div>
+      </section>
+
+
+      <section id="services" class="section-how--1 container-how--1">
+
+        <div class="container-how features-grid--1 grid-how--1">
+          <div>
+            <h2 class="secondary-header">How does it works</h2>
+            <span class="subheading">
+              the full plan for appie introduces alot of cons</span>
+            
+          </div>
+          <a href="#" class="all-features btn btn--outline">
+            View all features &rarr;</a>
+        </div></div>
+        <div class="container features-grid ">
+         
+                <!-- /* 01*/ -->
+          
+            <div class="feature">
+                <div>
+                <i class="feature-icon fa-solid fa-bolt-lightning"></i>             
+                </div> 
+                <p class="feature-header">Easy Setup process</p>
+                <p class="feature-text">
+                  It takes a couple of minutes to setup a new user; provide a URL, 
+                  username and password and they are away. </p>
+              <a href="#" class="read-more btn"> Read more &rarr;</a>
+            </div>
+
+            <!-- /* 02 */ -->
+            <div class="feature">
+              <div class="center-icon">
+                <i class="feature-icon fa-solid fa-bell"></i>
+              </div>
+                <p class="feature-header">Client Secure Login</p>
+                <p class="feature-text">
+                Impress clients with a modern web portal and improve 
+                customer service with automated processes..
+                </p>
+                <a href="#" class="read-more btn"> Read more &rarr;</a>
+               </div>       
+            <!-- /* 03 */ -->
+            <div class="feature">
+              <div class="center-icon">
+                <ion-icon class="feature-icon" name="home"></ion-icon>
+             </div> 
+             <p class="feature-header">Always Up To Date</p>
+              <p class="feature-text">
+                As everyone is accessing the same version of the web app via a URL, they will always be accessing 
+                the most up-to-date version of the software.
+              </p>
+              <a href="#" class="read-more btn"> Read more &rarr;</a>
+            </div>
+
+            <!-- /* 04* / -->
+            <div class="feature">
+              <div class="center-icon">
+                <i class="feature-icon fa-solid fa-gear"></i>
+              </div>
+              <p class="feature-header">Flexible Access process</p>
+              <p class="feature-text">
+                Employees can work from anywhere with internet access.      
+              </p>
+              <a href="#" class="read-more btn "> Read more &rarr;</a>
+            </div>
+         
+            <!-- /* 05 */ -->
+            <div class="feature">
+              <div>
+                <i class="feature-icon fa-solid fa-link"></i>
+              </div>
+
+              <p class="feature-header">The biggest tech market</p>
+              <p class="feature-text">
+                Globalization has connected the limitations for business and
+                communication as like never before.
+              </p>
+              <a href="#" class="read-more btn "> Read more &rarr;</a>
+            </div>
+
+            <!-- /* 06 */ -->
+            <div class="feature">
+              <div> 
+                <ion-icon class="feature-icon" name="lock-closed"></ion-icon>
+                </div>
+                <p class="feature-header">Storage Increase</p>
+              <p class="feature-text">
+                With the availability of the cloud, storage space is virtually infinite. 
+              </p>
+              <a href="#" class="read-more btn">
+                Read more &rarr;</a>
+              
+            </div>
+          </div>
+     
+      </section>
+      <section id="pages" class="marketing-section container">
+       <div class="grid grid-2-columns">
+        <div class="image-part-content">
+          <img class="marketing-img" src="img/about-thumb.png"/>
+         </div>
+         <div>
+         <div class="marketing">
+           <span class="subheading">Marketing</span>
+           <h2 class="marketing-header"> Making a lasting impression with <strong>appie</strong></h3>
+           <p class="marketing-text"> With the initiation of eCommerce, the internet is renovated into a gigantic marketplace
+            eCommerce</p>
+         <div class="marketing-list">
+             <ul class="marketing-items">
+              <li class="marketing-item">
+                <div><i class="fa-solid fa-circle-check"></i></div>
+                <div><span class="marketing-subtitle">Choose an App</span>
+                <p class="marketing-sm-text">
+                  With the initiation of eCommerce, the internet is renovated
+                </p></div>
+               </li>
+              <li class="marketing-item">
+                <div><i class="fa-solid fa-circle-check"></i></div>
+                <div><span class="marketing-subtitle">Choose an App</span>
+                <p class="marketing-sm-text">
+                  With the initiation of eCommerce, the internet is renovated 
+                </p></div>
+               </li>
+              </ul>
+            </div>
+          </div>
+         </div>
+       </div>
+      </section>
+
+
+      <section id="news" class="container needs-section ">
+        <div class="container">
+        <div class="container center-text ">
+          <h2 class="needs-header need-text-content">Whenever you need us the most</span>
+          <p class="needs-subheading">The full spiffing good time no biggie crack grub </p>
+        </div>
+        <div class="container grid grid-2-columns">
+          <div class="box-content">
+            <div class="needs-box"> 
+              <div class="box-circle box-circle-1"></div>
+              <!-- <ion-icon class="needs-oicon needs-oicon-1" name="ellipse"></ion-icon> -->
+              <div>
+                 <span class="needs-box-title">Well integrated</span>
+                 <p class="needs-box-text">The best app you can find</p>
+              </div>
+            </div>
+            <div class="needs-box">
+              <div class="box-circle box-circle-2"></div>
+              <!-- <ion-icon class="needs-oicon" name="ellipse"></ion-icon> -->
+              <div class="needs-box-item">
+                <span class="needs-box-title">Well integrated</span>
+                 <p class="needs-box-text">The best app you can find</p>
+              </div>
+            </div>
+            <div class="needs-box">
+              <div class="box-circle box-circle-3"></div>
+              <!-- <ion-icon class="needs-oicon" name="ellipse"></ion-icon> -->
+              <div class="needs-box-item">
+                <span class="needs-box-title">Well integrated</span>
+                 <p class="needs-box-text">The best app you can find</p>
+              </div>
+            </div>
+        </div>
+          <div><img class="needs-img" src="img/features-thumb-2.png"</div>
+        </div></div>
+      </section>
+
+
+      <section id="reviews" class="review-section">
+        <div class="container grid grid-4-columns"> 
+          <figure class="fig-box">
+                  <div class="review-number-content img-icon-box--1"></div>
+                    <div class="review-text-content">
+                     <span class="icon-box-title">45k+</span> 
+                       <p class=" icon-box-text">Active installation</p>
+                    </div>
+          </figure>
+          <figure class="fig-box">
+            <div class="review-number-content img-icon-box--2"></div>
+                 <div class="review-text-content"> 
+                   <span class="icon-box-title"> 108k+</span>
+                   <p class="icon-box-text"> Active installation</p>
+                 </div>
+          </figure>
+         <figure class="fig-box">
+                <div class="review-number-content img-icon-box--3"></div>
+                <div class="review-text-content">
+                  <span class="icon-box-title"> 307k+</span> 
+                  <p class="icon-box-text"> Active installation</p>
+                </div>
+         </figure>
+      
+      <figure class="fig-box">            
+               <div class="review-number-content img-icon-box--4"></div>
+               <div class="review-text-content">
+                 <span class="icon-box-title"> 725k+</span>
+                 <p class="icon-box-text"> Active installation</p>
+        </div>
+      </figure>
+      </div>
+     
+      
+        <div class="container  grid-2-images">
+          <div class="image-content">
+          <div class="img-container">
+             <img src="img/video-thumb-1.jpg" class="image">
+            <div class="overlay">
+             <div class="play-icon" title="Video Play">
+              <ion-icon name="caret-forward-circle-sharp"></ion-icon>
+             </div>
+            </div>
+          </div></div>
+          <!-- <div class="image-content"> 
+          <div class="vedio-img">
+            <img src="img/video-thumb-1.jpg"/>
+            <div class="overlay">
+              <button href="#" class="play-icon" title="Video Play">
+               <i class="fa fa-play"></i>
+             </button>
+            </div>
+         </div>
+        </div> -->
+        <div>
+          <img src="img/video-slide-1.jpg" />
+        </div>
+          </div>
+          <div class=" container vedio-play center-text" >
+            <h3 class="heading-tertiary">Watch the two-minute vedio to learn how.</h3>
+            <p class="icon-box-text">Installation is supported by Chrome for Android and Android WebView version 31 and later,
+             <br/> Opera for Android 32 onward</p>
+             <a href="#" class="get-started btn btn--outline">
+              Get started</a>
+           </div>
+      
+      </section>
+
+      <section id="download" class="download-sectiom">
+      <div class=" download-content">
+        <span class="subheading">
+          Download our app
+        </span>
+        <h2 class="download-Header">App is available for free on app store</h2>
+        
+        <p class="download-text">The goal is to extend the value of these assets
+           by using them across different digital media and channels.</p>
+        <div class="Logo-content">
+       
+           <div class="ios-logo ios-logo-flex-0">
+            <div><i class="fa-brands fa-apple"></i></div>
+            <div><p class="logo-white-text">Download for <strong>ios</strong></p></div>
+           </div>
+            
+           
+          <div class="android-logo android-logo-flex-0">
+           <div> <img src="img/play-store.png" class="logo-image"></div>             
+           <div><p class="logo-black-text">Download for <strong>Android</strong></p></div>
+          </div>
+        <!-- </button> -->
+       </div></div>
+      </section>
+      <section id="pricing" class="pricing-section ">
+        <div class="container center-text">
+          <span class="subheading center-text">Pricing</span>
+          <p class="secondary-header">
+            Simple pricing for everyone
+          </p>
+          <!-- <div class="switch-wrapper">
+            <input id="monthly" type="radio" name="switch" checked>
+            <input id="yearly" type="radio" name="switch">
+            <label for="monthly">Monthly</label>
+            <label for="yearly">Yearly</label>
+            <span class="highlighter"></span>
+          </div> -->
+          <!-- <div>
+         
+      
+   
+   
+          </label>
+        </div> -->
+        <!-- <div class="toggle-plan-choise"> <nav>
+          <p>Annually</p>
+          <button class="toggle-area monthly">
+            <div class="toggle-btn"></div>
+          </button>
+          <p>Monthly</p>
+        </nav>
+        </div> -->
+        
+          <label>
+            <input class="toggle-checkbox" type="checkbox" unchecked/>
+            <div class="toggle-switch">
+             <!--  <div class="entire-toogle">
+              <p class="toggle-text">Monthly</p>
+              <p class="toggle-text">Yearly</p>
+            </div> -->
+            </div>
+          </label>
+        
+      </div>
+        <div class="container grid grid-3-columns">
+
+          <!-- plan1 -->
+
+        <div class="pricing-plan plan--1">
+          <header class="plan-header">
+          <p class="plan-name">Fresh</p>
+          <p class="plan-price-1"><span>$</span>04</p>
+          <p class="plan-text">per month ,get your 14 day free trial</p>
+          </header>
+        <ul class="list">
+         <li class="list-item">
+          <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+          <span>60 - day chat history  </span>
+         </li>
+         <li class="list-item">
+          <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+          <span>15 GB cloud storage   </span>
+         </li>
+         <li class="list-item">
+          <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+          <span>24/7 support availabe</span>
+         </li>
+         <li class="list-item">
+          <ion-icon class="list-icon" name="close-outline"></ion-icon>
+        
+         </li>
+       </ul>
+       <div class="signup-plan">
+        <a href="#" class="btn--plan btn ">choose plane</a>
+      </div>
+       </div>
+
+          <!-- plan 2 -->
+
+       <div class="pricing-plan plan--2 ">
+        <header class="plan-header">
+        <p class="plan-name">Sweet</p>
+        <p class="plan-price-2"><span>$</span>16</p>
+        <p class="plan-text">Billed <strong>$276</strong>per website annually</p>
+     </header>
+     <ul class="list">
+      <li class="list-item">
+       <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+       <span>60 - day chat  history   </span>
+      </li>
+      <li class="list-item">
+       <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+       <span>15 GB cloud  storage   </span>
+      </li>
+      <li class="list-item">
+        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+        <span>24/7 support availabe</span>
+       </li>
+       <li class="list-item">
+        <ion-icon class="list-icon" name="close-outline"></ion-icon>
+        
+       </li>
+    </ul>
+      <div class="signup-plan">
+      <a href="#" class="btn--plan btn ">choose plane</a>
+    </div>
+     </div>
+
+          <!-- plan3 -->
+
+     <div class="pricing-plan plan--1">
+      <header class="plan-header">
+      <p class="plan-name">Juicy</p>
+      <p class="plan-price-3"><span>$</span>27</p>
+      <p class="plan-text">per month ,that's just $13 per meal</p>
+      </header>
+    <ul class="list">
+      <li class="list-item">
+        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+        <span>60 - day chat  history   </span>
+       </li>
+       <li class="list-item">
+        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+        <span>15 GB cloud  storage   </span>
+       </li>
+      <li class="list-item">
+        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+        <span>100 GB cloud storage</span>
+      </li>
+      <li class="list-item">
+        <ion-icon class="list-icon" name="checkmark-outline"></ion-icon>
+        <span>24/7 support availabe</span>          
+      </li>
+   </ul>
+   <div class="signup-plan">
+    <a href="#" class="btn--plan btn ">choose plane</a>
+  </div>
+   </div>
+</div>               
+    </section>
+       <section id="testmonials" class="testmonial-section">
+        <div class=" container ">
+          <div class="testmonial-content  testmonial-grid-content">
+          <div class="testmonial-review">
+     <img src="img/curly-man.jpg" class="testmomial-img"/>
+    <div> <ion-icon name="star" class="fa-star"></ion-icon>
+     <ion-icon name="star" class="fa-star"></ion-icon>
+     <ion-icon name="star" class="fa-star"></ion-icon>
+     <ion-icon name="star" class="fa-star"></ion-icon>
+     <ion-icon name="star" class="fa-star"></ion-icon>
+    
+        </div>
+        <p class="testmonial-review-text"><strong>(4.7)</strong> review</p>
+      </div>
+  
+      <div class="testmonial">
+  
+          <blockquote class="testmonial-text">
+           why i say old chap is spiffing chop shop such afibber the bee's knees,
+           the wirless Richard Fantastic do one cracking goal pukka baking cakes starkers 
+           much don't get shirty with me argy pargy,i naff chimmy pot blimey he lost his bottle cup.
+           </blockquote>
+           <span class="testmonial-name">Hanson Deck</span>
+           <p class="testmonial-name">web developer</p>
+        </div>
+       </div>
+       </div>
+
+      <div class="container center-text">
+      
+        <h2 class="secondary-header ">Appie works best with your favorite platforms</h2>
+        <span class="platforms-section-text ">
+          Join over <strong>40K+</strong> bussinesses world wide
+        </span>
+        
+      </div>
+       <div class="review-platforms review-platforms-content">
+       <div class="review-platforms-grid--1">
+       <img src="img/sponsers/sponser-1.png" class="platform-img"/>
+       <img src="img/sponsers/sponser-2.png" class="platform-img"/>
+       <img src="img/sponsers/sponser-3.png" class="platform-img"/>
+       <img src="img/sponsers/sponser-4.png" class="platform-img"/>
+       <img src="img/sponsers/sponser-5.png" class="platform-img"/>
+       <img src="img/sponsers/sponser-6.png" class="platform-img">
+       </div>
+
+       <div class="review-platforms-grid--2">
+        <img src="img/sponsers/sponser-7.png" class="platform-img"/>
+        <img src="img/sponsers/sponser-8.png" class="platform-img"/>
+        <img src="img/sponsers/sponser-9.png" class="platform-img"/>
+        <img src="img/sponsers/sponser-10.png" class="platform-img"/>
+
+      </div>
+   
+       </section>
+      
+
+    </main>
+    <footer id="contacts" class="footer">
+      <div class="container grid grid--footer">
+        <div class="logo-col">
+            <a href="#" class="footer-logo">
+            <img class="logo" src="img/logo.png" alt="logo" /> 
+            </a>
+         
+            <p class="footer-text" >Apple wordpress is theme is the last them
+             you will have ever</p>
+            <a href="#" class="read-more btn"> Read more &rarr;</a>
+             <!-- <div class="social-links">
+               <a href="#" ><i  class=" fa-brands fa-facebook-f"></i></a>
+               <a href="#" > <i class=" fa-brands fa-twitter"></i></a>
+                 <a  href="#" > <i class=" fa-brands fa-pinterest-p"></i></a>
+               <a  href="#" ><i class=" fa-brands fa-linkedin-in"></i></a>
+
+             </div> -->
+              <ul class="social-links">
+                <li>
+                   <a class="footer-link" href="#" ><i  class=" social-icon fa-brands fa-facebook-f"></i></a>
+                </li>
+                <li>
+                   <a class="footer-link" href="#" > <i class=" social-icon fa-brands fa-twitter"></i></a>
+                  </li>
+                <li> 
+                  <a class="footer-link"  href="#" > <i class="social-icon fa-brands fa-pinterest-p"></i></a>
+                </li>
+                <li> 
+                  <a class="footer-link"  href="#" ><i class="social-icon fa-brands fa-linkedin-in"></i></a>
+                </li>
+              </ul>
+         </div>
+        <div class="nav-col">
+          <span class="footer-header">company</span>
+          <ul class="footer-nav">
+            <li><a class="footer-link" href="#">About us</a></li>
+            <li><a class="footer-link"  href="#">Services</a></li>
+            <li><a class="footer-link"  href="#">Case studies Blog</a></li>
+            <li><a class="footer-link"  href="#">blog</a></li>
+            <li><a class="footer-link"  href="#">contact</a></li>
+          </ul>
+        </div>
+        <div class="nav-col">
+          <span class="footer-header">Support</span>
+          <ul class="footer-nav">
+            <li> <a class="footer-link" href="#">Community</a></li>
+            <li><a class="footer-link" href="#">Resouses</a></li>
+            <li><a class="footer-link" href="#">Fags</a></li>
+            <li><a class="footer-link" href="#">Privacy policy</a></li>
+            <li><a class="footer-link" href="#">Careers</a></li>
+          </ul>
+        </div>
+         <div class="nav-col">
+          <span class="footer-header--1">Get in touch</span>
+          <address class="contacts">
+            <div class="email">
+              <ion-icon name="mail-outline"></ion-icon>
+            <a class="footer-link" href="mailto:support@appie.com">support@apple.com</a>
+          </div>
+           <div class="tel">
+            <ion-icon name="call-outline"></ion-icon>
+            <a  class="footer-link" href="tel:64234276244">+64234276244</a>
+            </div>
+            <div class="address">
+            <ion-icon name="location-outline"></ion-icon>
+            <a  class="footer-link" href="#">442 Belle Terre St floor 7,san fransisco,AV 4206</a>
+           </div>
+           </address>
+          </div>
+      </div>
+
+      <div class="logo-copy-grid">
+      <div class="Logo-content--footer">
+        <div>
+         <a href="#" >
+          <div class="logo--footer ios-logo-flex">
+          <div><i class=" fa-brands fa-apple"></i></div>
+          <div><p class="logo-black-text">
+            Download for <strong>ios</strong></p>
+          </div>
+          </div>
+        </a>
+    </div>
+                 
+      <div class> <a href="#" >
+
+      </a><div class="logo--footer android-logo-flex">
+         <div><img src="img/play-store.png" class="logo-image">  </div>          
+        <p class="logo-black-text">Download for <strong>Android</strong></p>
+       </div>
+      </a></div>
+    </div>
+    
+    <div class="copy-right" >
+    <p class="copyright">
+      Copyright &copy; 2027 by Omnifood, Inc. All rights reserved.
+    </p>
+  </div>
+</div>
+<div class="container">
+<button id="myBtn"><a href="#" style="color: white">Top</a></button></div>
+  <!-- </button> -->
+    </footer>
+
+    <!-- Lovingly hand-crafted.
+
+    Premium designed icons for use in web, 
+    iOS, Android, and desktop apps. Support for SVG and web font.
+     Completely open source, 
+    MIT licensed and built by Ionic. -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <script type="module" src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://cdn.jsdelivr.net/npm/ionicons/dist/ionicons/ionicons.js"></script>
+ <script src="main.js"></script>
+  </body>
+</html>
