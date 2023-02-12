@@ -137,7 +137,7 @@
   .nav-open .icon-mobile-nav[name="menu-outline"] {
     display: none;
   }
-
+ 
   .navigation-list-nav {
     flex-direction: column;
     gap: 4.8rem;

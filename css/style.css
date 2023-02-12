@@ -24,6 +24,11 @@
   align-items: center;
   gap: 2.4rem;
 }
+.fa-angle-down{
+  display: inline;
+  font-size: 1.2rem;
+
+}
 .navigation-list-link:link,
 .navigation-list-link:visited {
   display: inline-block;
