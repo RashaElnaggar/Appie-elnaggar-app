@@ -253,11 +253,17 @@
   .hero-img {
     width: 80%;
   }
-  .grid-4-columns {
+  .testmonial-grid-content {
+    display:block;
   }
-
+ .secondary-header{
+  font-size: 2.4rem;
+}
   .features-grid--1 {
     display: block;
+  }
+  .review-platforms-grid--2{
+    grid-template-columns: repeat(2,1fr);
   }
   .testimonials {
     grid-template-columns: 1fr;
