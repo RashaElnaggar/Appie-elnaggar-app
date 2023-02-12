@@ -6,7 +6,10 @@
   }
 
   .heading-primary {
-    font-size: 4.4rem;
+    font-size: 3.2rem;
+    width: 60%;
+    text-align: left;
+    margin-left: -2rem;
   }
 
   .features-grid {
@@ -18,6 +21,13 @@
 /**************************/
 
 @media (max-width: 75em) {
+  /* .hero{
+    max-width:100rem;
+  } */
+  /* .container{
+    max-width: 110rem;
+  } */
+
   html {
     /* 9px / 16px  */
     font-size: 56.25%;
@@ -167,6 +177,9 @@
   .grid-4-columns {
     grid-template-columns: repeat(2, 1fr);
   }
+  .hero-text-box{
+    max-width:150%;
+  }
   .customers-container {
     justify-content: left;
     margin-top: 2.4rem;
@@ -175,9 +188,11 @@
     margin-bottom: 4.8rem;
   }
   .needs-header {
-    font-size: 3.2rem;
-    line-height: 1.2;
-  }
+    font-size: 2.4rem;
+    width: 120%;
+    line-height: 1.8;
+}
+  
   .review-platforms-grid--1 {
     grid-template-columns: repeat(3, 1fr);
   }
@@ -193,6 +208,10 @@
   .marketing-items {
     flex-direction: column;
   }
+  .image-part-content .marketing-img {
+
+    width: 95%;
+}
 
   .pricing-plan {
     width: 85%;
@@ -223,6 +242,12 @@
 /**************************/
 
 @media (max-width: 34em) {
+  .hero{
+    max-width: 50rem;
+  }
+  .container{
+    max-width:50.5rem;
+  }
   .grid {
     row-gap: 4.8rem;
   }
@@ -258,6 +283,9 @@
   }
  .secondary-header{
   font-size: 2.4rem;
+}
+.features-grid {
+  grid-template-columns: repeat(1, 1fr);
 }
   .features-grid--1 {
     display: block;
