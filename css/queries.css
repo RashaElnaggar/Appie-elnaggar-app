@@ -1,4 +1,4 @@
-/* BELOW 1344px (Smaller desktops) */
+No/* BELOW 1344px (Smaller desktops) */
 
 @media (max-width: 84em) {
   .hero {
@@ -328,6 +328,8 @@
   }
 #myBtn{
 Float:left;
+right: 77.25%;
+  left: 18.5%;
 }
 }
 
