@@ -283,6 +283,7 @@
   }
  .secondary-header{
   font-size: 2.4rem;
+  Width:80%;
 }
 .features-grid {
   grid-template-columns: repeat(1, 1fr);
