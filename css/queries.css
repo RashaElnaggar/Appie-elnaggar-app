@@ -7,9 +7,9 @@
 
   .heading-primary {
     font-size: 3.2rem;
-    width: 60%;
+    width: 80%;
     text-align: left;
-    margin-left: -2rem;
+    margin-left: -1rem;
   }
 
   .features-grid {
@@ -68,7 +68,10 @@
     /* 8px / 16px = 0.5 = 50% */
     font-size: 50%;
   }
-
+.main-header{
+  display: grid;
+    grid-template-columns: 1fr 1fr;
+}
   .hero {
     grid-template-columns: 1fr;
     padding: 0 8rem;
@@ -312,7 +315,7 @@
   }
 
   .testmonial-grid-content {
-    grid-template-rows: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
     grid-template-columns: 1fr;
     height: 50rem;
   }
