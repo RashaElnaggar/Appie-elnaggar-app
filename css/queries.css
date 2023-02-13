@@ -312,7 +312,7 @@
   }
 
   .testmonial-grid-content {
-    grid-template-rows: 1fr 2fr;
+    grid-template-rows: 1fr 1fr;
     grid-template-columns: 1fr;
     height: 50rem;
   }
