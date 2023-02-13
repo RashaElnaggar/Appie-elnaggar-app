@@ -872,6 +872,9 @@ ul{
   line-height: 1.2;
   margin-right: 0.8rem;
 }
+black-text{
+  color:#000;
+}
 .logo-white-text {
   font-size: 1.2rem;
   font-weight: 600;
@@ -934,6 +937,13 @@ ul{
 .testmonial-content {
   background-image: url(../img/testmonial-image.jpg);
   height: 30rem;
+}
+.testmonial-review {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
 }
 .fa-star {
   width: 2.4rem;
