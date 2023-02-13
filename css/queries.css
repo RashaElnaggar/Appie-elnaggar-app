@@ -326,7 +326,7 @@
   .logo-copy-grid{
     grid-template-columns: 1fr;
   }
-#btn{
+#myBtn{
 Float:left;
 }
 }
