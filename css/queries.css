@@ -327,9 +327,9 @@ No/* BELOW 1344px (Smaller desktops) */
     grid-template-columns: 1fr;
   }
 #myBtn{
-Float:left;
-right: 77.25%;
-  left: 18.5%;
+float:left;
+/*right: 77.25%;
+  left: 18.5%;*/
 }
 }
 
