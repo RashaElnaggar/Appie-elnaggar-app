@@ -326,6 +326,9 @@
   .logo-copy-grid{
     grid-template-columns: 1fr;
   }
+#btn{
+Float:left;
+}
 }
 
 /* 
