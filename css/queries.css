@@ -229,6 +229,12 @@
     height: 14rem;
     margin-bottom: 2.4rem;
   }
+  .footer-text {
+    line-height: 1.2;
+  }
+  .platforms-section-text {
+    font-size: 1.8rem;
+  }
 
   /* .nav-col {
     grid-row: 1;
@@ -303,6 +309,9 @@
   .gallery {
     grid-template-columns: repeat(4, 1fr);
     gap: 1.2rem;
+  }
+  .logo-copy-grid{
+    grid-template-columns: 1fr;
   }
 }
 
