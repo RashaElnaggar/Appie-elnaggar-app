@@ -638,6 +638,7 @@ ul{
   align-items: center;
   box-shadow: rgb(0 0 0 / 15%) 0px -23px 25px 0px inset, rgb(255 255 255 / 15%) 0px -36px 30px 0px inset, rgb(255 255 255 / 98%) 0px -79px 40px 0px inset, rgb(255 255 255 / 6%) 0px 4px 1px, rgb(255 255 255 / 9%) 0px 4px 2px, rgb(255 255 255 / 9%) 0px 8px 4px, rgb(255 255 255 / 9%) 0px 16px 8px, rgb(0 0 0 / 9%) 0px 32px 16px;
   /* box-shadow: rgb(0 0 0 / 24%) 0px 3px 8px; */
+  color:#000;
 }
 /* *******************
 -------pricing-----
