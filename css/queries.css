@@ -328,6 +328,7 @@
     grid-template-columns: 1fr;
   }
 #myBtn{
+Display :block;
 Position:absolute;
 float:left;
 /*right: 77.25%;
