@@ -1193,6 +1193,7 @@ position:relative;
 }
 /*Floating Back-To-Top Button*/
 #myBtn {
+ display:inline-block;
   position: absolute;
   bottom: 10px;
   float: right;
