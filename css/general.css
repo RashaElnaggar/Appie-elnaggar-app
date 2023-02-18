@@ -34,6 +34,8 @@ primary: #e67e22
 html {
   font-size: 62.5%;
   scroll-behavior: smooth;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 * {
   padding: 0;
@@ -46,6 +48,8 @@ body {
   color: #333;
   letter-spacing: -0.5px;
   font-family: "Roboto";
+  max-width: 100%;
+  overflow-x: hidden;
 }
 /*
 *********************
