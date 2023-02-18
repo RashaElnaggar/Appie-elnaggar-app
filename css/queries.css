@@ -142,7 +142,7 @@
     visibility: visible;
     transform: translateX(0);
   }
-  .btn:link,
+ .btn, .btn:link,
   .btn:visited{
     transition:none;
     z-index:1;
