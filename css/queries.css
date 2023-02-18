@@ -144,7 +144,7 @@
   }
  .btn, .btn:link,
   .btn:visited{
-     -webkit-transition: none !important
+     -webkit-transition: none !important;
     z-index:1;
 
 }
