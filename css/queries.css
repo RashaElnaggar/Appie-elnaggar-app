@@ -142,9 +142,15 @@
     visibility: visible;
     transform: translateX(0);
   }
+  .btn:link,
+  .btn:visited{
+    transition:none;
+    z-index:1;
 
+}
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
+    z-index:9999;
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
@@ -326,6 +332,11 @@
   .logo-copy-grid{
     grid-template-columns: 1fr;
   }
+#myBtn{
+
+/*float:left;*/
+
+}
 }
 
 /* 

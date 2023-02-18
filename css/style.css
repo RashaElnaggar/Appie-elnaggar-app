@@ -1187,9 +1187,14 @@ black-text{
   color: #eee;
   background-color: #333;
 } */
+.relative{
+position:relative;
+
+}
 /*Floating Back-To-Top Button*/
 #myBtn {
-  position: fixed;
+ display:inline-block;
+  position: absolute;
   bottom: 10px;
   float: right;
   right: 18.5%;
