@@ -120,7 +120,7 @@ ul{
   font-size: 1.8rem;
   font-weight: 600;
 }
-.btn:link,
+.btn,.btn:link,
 .btn:visited {
   display: inline-block;
   font-size: 1.8rem;
@@ -155,9 +155,9 @@ ul{
   background-color: #9cc2cf;
   border: 1px solid #576c73;
 }
-.btn--outline:link,
+.btn--outline,.btn--outline:link,
 .btn--outline:visited {
-  z-index: -2;
+  /* z-index: -2; */
   background-color: #fff;
   color: #555;
   font-size: 1.8rem;
@@ -176,7 +176,7 @@ ul{
   display: flex;
   align-content: space-between;
   align-items: center;
-  z-index: -2;
+  /* z-index: -2; */
 
   /* box-shadow: 5px 5px 5px 0px rgba(0, 0, 0, 0.3); */
   /* border-radius: 140px;*/
@@ -188,7 +188,7 @@ ul{
   -moz-border-radius: 140px 140px 140px 140px;
   -webkit-border-radius: 140px 140px 140px 140px;
   border: 0px solid #000000;
-  z-index: -1;
+  /* z-index: -2; */
 }
 
 /* section-how--1 */
