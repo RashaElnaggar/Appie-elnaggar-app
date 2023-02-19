@@ -103,6 +103,7 @@
   /* MOBILE NAVIGATION */
   .btn-mobile-nav {
     display: block;
+    z-index:9999;
     
   }
 
@@ -141,17 +142,17 @@
     pointer-events: auto;
     visibility: visible;
     transform: translateX(0);
-z-index: 9999;
+    z-index: 9999;
   }
- .btn, .btn:link,
+ /* .btn,.btn:link,
   .btn:visited{
      -webkit-transition: none !important;
     z-index:0;
 
-}
+} */
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
-    z-index:9999;
+    /* z-index: 9999; */
   }
 
   .nav-open .icon-mobile-nav[name="menu-outline"] {
@@ -160,7 +161,7 @@ z-index: 9999;
  
   .navigation-list-nav {
     flex-direction: column;
-    gap: 4.8rem;
+    gap: 3.2rem;
   }
 
   .navigation-list-link:link,
